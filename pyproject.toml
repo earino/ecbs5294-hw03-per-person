@@ -1,0 +1,14 @@
+[project]
+name = "ecbs5294-hw03-per-person"
+version = "0.1.0"
+description = "ECBS5294 homework 3: Waste per person: two files, three layers"
+requires-python = ">=3.10"
+dependencies = [
+    "duckdb==1.5.5",
+    "pandas>=2.2",
+    "ipykernel>=6.29",
+]
+
+# CI only: executes the notebooks. A plain `uv sync` never installs it.
+[dependency-groups]
+ci = ["nbconvert>=7.16"]
