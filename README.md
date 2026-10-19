@@ -2,7 +2,7 @@
 
 **ECBS5294 — Working with Data · due Saturday 31 October 2026, 23:59 (slot on Moodle)**
 
-Plan for about **3 hours**. This is an estimate: nobody has timed it yet. If you are far past it and still stuck, post on
+Plan for about **2 to 3 hours**. This is an estimate. If you are far past it and still stuck, post on
 the Moodle forum. That helps us improve the homework. Asking for help does not lower your grade.
 
 You do this homework alone. Every query, every count and every sentence is yours.
@@ -82,9 +82,9 @@ course, and one line on AI use.
 3. **Question 3.** Look at Greece in the cell before your query. `waste_silver` uses Eurostat's code and `population`
    the World Bank's; `members` holds both, so the query starts `FROM members AS m` and has two `JOIN`s. `COUNT(*)`
    counts every row; `COUNT(kg_per_person)` skips a `NULL`.
-4. **Question 4.** (b) Block 3's cell 9: a `LEFT JOIN` keeps every member, and the one with no partner has `NULL` in
-   the colleague's columns. (c) What does each table call that member? (d) One line of the colleague's query changes:
-   the join to `population`.
+4. **Question 4.** (a) The claim is about the colleague's table: question 3's count, on their table. (b) Block 3's
+   cell 9: a `LEFT JOIN` keeps every member, and the one with no partner has `NULL` in the colleague's columns.
+   (c) What does each table call that member? (d) One line of the colleague's query changes: the join to `population`.
 
 ## Grading
 
